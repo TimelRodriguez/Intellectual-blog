@@ -188,12 +188,9 @@ export default function BriefingPage({ params }: PageProps) {
               <p className="text-sm">
               </p>
             </div>
-            <Link
-  href="/briefings"
-  className="mt-2 inline-block text-rose-700 hover:text-rose-800 font-medium transition-colors text-sm"
->
-  More Briefings →
-</Link>
+            <Link href="/current-events" className="text-rose-600 hover:text-rose-700 font-medium transition-colors">
+              More Briefings →
+            </Link>
           </div>
         </footer>
       </article>
