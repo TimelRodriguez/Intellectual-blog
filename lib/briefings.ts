@@ -65,16 +65,30 @@ export const briefings: Briefing[] = [
     Furthermore, recent reporting indicates continued use of both traditional and novel techniques, including disk-wiping malware and credential theft. The group has a history of using Dropbox and other global cloud services, such as OneDrive and Google Drive, to distribute malicious files. In their latest attack, APT37 sent fake Microsoft Word documents through targeted phishing emails. When opened, these files took advantage of a Windows flaw (CVE-2023-21674) to gain higher-level access on the victim’s computer, this is called privilege escalation. This allowed the attackers to quietly run PowerShell commands that installed RoKRAT, a spying tool that can gather system information, take screenshots, and steal files for later use. APT37’s evolving operations present a credible threat to organizations across East Asia and beyond.
 
     Below, I have provided a summarized table of some of the tactics and techniques used by APT37, along with their MITRE ATT&CK framework ID: 
+    
+    *table here*
+   
+    Overall, while their primary targeting has focused on Korean-language users and domestic South Korean institutions, the group’s malware toolset is adaptable. Entities operating in government, journalism, human rights, defense, or research should consider APT37 a high-risk actor, especially if their mission intersects with North Korean geopolitical interests.
+
+
+
+Sources
+https://attack.mitre.org/groups/G0067/
+https://therecord.media/apt37-scarcruft-cyber-espionage-campaign-south-korea
+https://www.genians.co.kr/en/blog/threat_intelligence/toybox-story?hsCtaAttrib=187480934467
+https://blog.google/threat-analysis-group/internet-explorer-0-day-exploited-by-north-korean-actor-apt37/
+https://www.helpnetsecurity.com/2023/01/10/patch-tuesday-cve-2023-21674/
+
 
 
     `,
-    date: "string",
+    date: "July 10, 2025",
     threatLevel: "High",
-    category: "string", 
-    image: "string",
+    category: "Cybersecurity", 
+    image: "https://i.imgur.com/l2f4rGx.png",
     tags: ["APT", "Zero-Day", "Digital Threats"],
-    keyFindings:[],
-    recommendations: [],
+    keyFindings:["APT37 has expanded its targeting beyond South Korea, signaling a growing regional and possibly global threat, especially to entities aligned against North Korean interests."],
+    recommendations: ["Patch Windows systems regularly to block known exploits", "Monitor for unusual PowerShell or cloud activity", "Train staff to spot phishing and suspicious attachments"],
     author: "Timel Rodriguez",
   },
 ]

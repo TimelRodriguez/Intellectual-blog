@@ -120,7 +120,7 @@ export default function HomePage() {
               <CardContent className="p-6">
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="https://i.imgur.com/mrhp3WU.png"
                     alt="Current events analysis"
                     width={400}
                     height={200}
@@ -131,14 +131,14 @@ export default function HomePage() {
                   <span className="bg-rose-100 text-rose-700 px-3 py-1 rounded-full text-sm font-medium">
                     Current Events
                   </span>
-                  <span className="text-stone-500 text-sm">March 15, 2024</span>
+                  <span className="text-stone-500 text-sm">June 9, 2025</span>
                 </div>
                 <h3 className="text-xl font-bold text-stone-800 mb-3">
-                  Geopolitical Shifts in Eastern Europe: An Analysis
+                Lawfare and the Limits of Economic Deterrence: South Africa v. Israel at the ICJ
                 </h3>
                 <p className="text-stone-600 mb-4 leading-relaxed">
-                  Examining recent developments and their implications for regional security, with a focus on emerging
-                  threat vectors and strategic considerations...
+                South Africa’s ICJ genocide case against Israel shows that legal escalation (“lawfare”) is being used even when trade ties exist, challenging the idea that economic interdependence deters conflict. This case suggests...
+        
                 </p>
                 <Link href={`/current-events/${articles[0]?.slug || ""}`}>
                   <Button variant="ghost" className="text-rose-600 hover:text-rose-700 p-0">
@@ -153,7 +153,7 @@ export default function HomePage() {
               <CardContent className="p-6">
                 <div className="mb-4">
                   <Image
-                    src="/placeholder.svg?height=200&width=400"
+                    src="https://i.imgur.com/l2f4rGx.png"
                     alt="Threat briefing"
                     width={400}
                     height={200}
@@ -164,12 +164,12 @@ export default function HomePage() {
                   <span className="bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-medium">
                     Threat Briefing
                   </span>
-                  <span className="text-stone-500 text-sm">March 12, 2024</span>
+                  <span className="text-stone-500 text-sm">July 10, 2025</span>
                 </div>
-                <h3 className="text-xl font-bold text-stone-800 mb-3">Cyber Threat Landscape: Q1 2024 Assessment</h3>
+                <h3 className="text-xl font-bold text-stone-800 mb-3">APT37 in Focus: North Korea’s Espionage Tactics and Evolving Malware</h3>
                 <p className="text-stone-600 mb-4 leading-relaxed">
-                  A comprehensive overview of emerging cyber threats, attack vectors, and recommended mitigation
-                  strategies for organizations...
+               This briefing examines how APT37 uses zero-day exploits, phishing, and tools like RoKRAT to conduct targeted cyber operations.
+    
                 </p>
                 <Link href={`/briefings/${briefings[0]?.slug || ""}`}>
                   <Button variant="ghost" className="text-rose-600 hover:text-rose-700 p-0">

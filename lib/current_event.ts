@@ -20,7 +20,7 @@ export interface Article {
         id: "4",
         slug: "lawfare-and-the-limits-of-economic-deterrence",
         title: "Lawfare and the Limits of Economic Deterrence: South Africa v. Israel at the ICJ",
-        excerpt: "South Africa’s ICJ genocide case against Israel shows that legal escalation (“lawfare”) is being used even when trade ties exist challenging the idea that economic interdependence deters conflict. This case suggests middle powers may increasingly use international law as a tool for political pressure rather than conflict resolution.",
+        excerpt: "South Africa’s ICJ genocide case against Israel shows that legal escalation (“lawfare”) is being used even when trade ties exist, challenging the idea that economic interdependence deters conflict. This case suggests middle powers may increasingly use international law as a tool for political pressure rather than conflict resolution.",
         
         content:` 
         Incident Summary: 
@@ -29,9 +29,7 @@ export interface Article {
 
         **OSINT Assessment:
         
-        South Africa’s behavior deviates from economic interdependence theory, which suggests states with strong trade ties prefer 
-        legal arbitration to preserve commerce. Here, adjudication wasn’t used to preserve the relationship. Instead, it was used to escalate and symbolically sever it. 
-        The case also reflects an emerging pattern: middle powers leveraging the ICJ and other multilateral legal bodies as a form of political influence rather than conflict resolution.
+        South Africa’s behavior deviates from economic interdependence theory, which suggests states with strong trade ties prefer legal arbitration to preserve commerce. Here, adjudication wasn’t used to preserve the relationship. Instead, it was used to escalate and symbolically sever it. The case also reflects an emerging pattern: middle powers leveraging the ICJ and other multilateral legal bodies as a form of political influence rather than conflict resolution.
 
         Strategic Risk Implications: 
 

@@ -215,7 +215,7 @@ export default function BriefingPage({ params }: PageProps) {
             </Link>
           </div>
           <div className="mt-8 pt-8 border-t border-stone-700">
-            <p className="text-stone-400 text-sm">© 2024 INTELlectual. All rights reserved.</p>
+            <p className="text-stone-400 text-sm">© 2025 INTELlectual. All rights reserved.</p>
           </div>
         </div>
       </footer>
