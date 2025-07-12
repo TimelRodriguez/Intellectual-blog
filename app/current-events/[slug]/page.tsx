@@ -133,13 +133,13 @@ export default function ArticlePage({ params }: PageProps) {
 
       {/* Footer */}
       <footer className="bg-stone-800 text-white py-12 px-4 sm:px-6 lg:px-8 mt-16">
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="md:max-w-4xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-4">
             <span className="font-black text-rose-400">INTEL</span>
             <span className="font-light">lectual</span>
           </h3>
           <p className="text-stone-300 mb-6">Intelligence analysis and commentary for the modern world</p>
-          <div className="flex justify-center space-x-6">
+          <div className="flex md:justify-center md:space-x-6">
             <Link href="/" className="text-stone-300 hover:text-rose-400 transition-colors">
               Home
             </Link>

@@ -71,7 +71,6 @@ export const briefings: Briefing[] = [
     Overall, while their primary targeting has focused on Korean-language users and domestic South Korean institutions, the group’s malware toolset is adaptable. Entities operating in government, journalism, human rights, defense, or research should consider APT37 a high-risk actor, especially if their mission intersects with North Korean geopolitical interests.
 
 
-
 Sources
 https://attack.mitre.org/groups/G0067/
 https://therecord.media/apt37-scarcruft-cyber-espionage-campaign-south-korea
@@ -79,19 +78,56 @@ https://www.genians.co.kr/en/blog/threat_intelligence/toybox-story?hsCtaAttrib=1
 https://blog.google/threat-analysis-group/internet-explorer-0-day-exploited-by-north-korean-actor-apt37/
 https://www.helpnetsecurity.com/2023/01/10/patch-tuesday-cve-2023-21674/
 
-
-
     `,
     date: "July 10, 2025",
     threatLevel: "High",
     category: "Cybersecurity", 
-    image: "https://i.imgur.com/l2f4rGx.png",
-    tags: ["APT", "Zero-Day", "Digital Threats"],
+    image: "https://i.imgur.com/l2f4rGx.png", 
+    tags: ["APT", "Zero-Day", "Cyber Threats"],
     keyFindings:["APT37 has expanded its targeting beyond South Korea, signaling a growing regional and possibly global threat, especially to entities aligned against North Korean interests."],
     recommendations: ["Patch Windows systems regularly to block known exploits", "Monitor for unusual PowerShell or cloud activity", "Train staff to spot phishing and suspicious attachments"],
     author: "Timel Rodriguez",
   },
-]
+  
+  {id: "2",
+    slug: "Extremist-Use-of-AI",
+    title: "Extremist Use of AI for Propaganda & Operational Support",
+    excerpt: "This briefing examines how extremist groups are leveraging AI tools to generate propaganda and conduct influence operations across fringe platforms.",
+    content: `##Summary
+
+Recent open source intelligence (OSINT) suggests that extremist groups such as ISIS are increasingly using AI tools for propaganda, recruitment, and to support in house operations. They are producing audiovisual content, encrypted guides, and even varying weapon design like bomb-making. This trend represents a significant escalation in extremist adaptation to technology. 
+
+##Background
+
+ - Generative AI platforms like ChatGPT and voice/video generators have become more accessible and user-friendly. Extremist actors are leveraging these to enhance the appeal and reach of their messaging.
+ - These new methods and tools are shared via encrypted or fringe social media platforms such as Telegram which amplify reach while limiting detection.
+
+##Threat Assessment
+
+- Propaganda: Audio-visual content is now more polished which improves recruitment potential, especially among tech-savvy audiences.
+- Operational support: AI-generated manuals for encryption and surveillance help individuals with low technical abilities perform harmful actions. 
+- Disinformation: This fake content created with AI raise the risk of broader influence and ideological manipulation.
+
+Overall, extremist groups are likely to continue integrating AI into their media operations, increasing the sophistication of their content and making open-source monitoring more difficult. As these groups adapt and potentially bypass traditional surveillance measures, countermeasures like content regulation, AI content detection, and strategic policy development will become important. 
+
+##Indicators to Watch for
+
+- AI-branded propaganda channels emerging on Telegram or other platforms. 
+- A surge in extremist content labeled or tagged as “GPT” 
+- New versions of DIY manuals that appear formal and structured (e.g., icons, diagrams).
+
+    `,
+    date: "July 12, 2025",
+    threatLevel: "Medium",
+    category: "Extremism", 
+    image: "https://i.imgur.com/z84AbRv.png", 
+    tags: ["Generative AI", "Disinformation", "Digital Threats"],
+    keyFindings:["Extremist groups are increasingly using AI to enhance propaganda, produce operational guides, and spread disinformation across fringe platforms. This makes their content harder to detect and more effective at recruiting and spreading ideology."],
+    recommendations: ["Monitor fringe platforms for AI-labeled content and emerging propaganda", "Improve detection tools for AI-generated media", "Create internal policies on how to respond to AI extremist content"],
+    author: "Timel Rodriguez",
+  },
+
+ ]
 
 // Helper functions to get content by slug
 export function getBriefingBySlug(slug: string): Briefing | undefined {
